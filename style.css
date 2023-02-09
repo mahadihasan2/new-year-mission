@@ -86,3 +86,24 @@ header {
 .fa-check {
 	color: #16d887;
 }
+
+.my-plan {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+.h1-myplan {
+	font-size: 40px;
+	text-align: center;
+}
+
+.plan-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.h4-text {
+	margin: 5px 0;
+}
