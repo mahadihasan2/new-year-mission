@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	width: 100%;
+	width: 100vw;
 	height: 700px;
 	background-image: url(images/banner/banner1.png);
 	background-repeat: no-repeat;
@@ -106,4 +106,35 @@ header {
 
 .h4-text {
 	margin: 5px 0;
+}
+
+.call-to-action {
+	width: 1140px;
+	height: 300px;
+	margin: 30px 0;
+	background-image: linear-gradient(to right, #f15b22, #f15b2200),
+		url(images/watch.png);
+	border-radius: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.ctl-content {
+	width: 40%;
+	padding: 60px;
+}
+
+.ctl-content {
+	font-size: 25px;
+	color: aliceblue;
+}
+
+.ctl-btn {
+	padding: 15px 20px;
+	font-weight: bold;
+	border: none;
+	margin: 10px 0;
+	border-radius: 5px;
+	color: #f15b22;
 }
